@@ -5,8 +5,9 @@ Range("A1:A10") = "안녕하세요?"
 
 Worksheets("Sheet1").Range("A1:A10").ClearContents
 ' clear 내용,서식 모두
-' clearContents 내용만
+' clearContents 내용만 
 ' clearFormats 서식만
+' delete shift:=xlup '전체셀을 위로 끌어 올리며 행 삭제
 
 Range("B49").CurrentRegion.Select
 Range("C5").CurrentRegion.ClearContents

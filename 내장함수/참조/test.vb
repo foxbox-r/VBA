@@ -6,8 +6,8 @@ VLOOKUP(선택셀,테이블,열 번호,FALSE)
 
 ' INDEX,MATCH
 
-'INDEX 2차워범위에서 X,Y로 값을 리턴
-INDEX(2차원테이블,X,Y)
+'INDEX 2차워범위에서 Y,X로 값을 리턴
+INDEX(2차원테이블,Y,x)
 
 'MATCH 범위에서 찾는값의 위치 반환
 MATCH(찾는값,비교범위,0)
